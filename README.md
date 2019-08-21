@@ -33,7 +33,7 @@ https://review.udacity.com/#!/rubrics/989/view
 
 ### Solution Summary
 
-The outline of the code implementation is shown below. The VGG16 model was downloaded, and the architecture was modified in the last layers.
+The outline of the code implementation is shown below. The VGG16 model was downloaded, and the architecture was modified in the last layers. The final model was run with 50 Epochs and a batch size of 4.
 
 ![alt text][image1]
 
