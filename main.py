@@ -178,6 +178,7 @@ def train_nn(sess, epochs, batch_size, get_batches_fn, train_op, cross_entropy_l
         
         print()
     
+    # Create a plot of the loss over the epochs
     _, axes = plt.subplots()
     plt.plot(range(0, len(loss_values)), loss_values)
     plt.ylim(0, 5)
